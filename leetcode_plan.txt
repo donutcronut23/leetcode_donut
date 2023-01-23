@@ -1,0 +1,14 @@
+2. (14-21 ngày) Cấu trúc dữ liệu căn bản: 
+Học 1 lượt về các cấu trúc dữ liệu căn bản, 
+các thao tác trên CTDL đó và độ phức tạp tương ứng. 
+Hiểu được CTDL nào thì nên dùng lúc nào với bài toán nào. 
+Mục tiêu là làm đc 3-4 bài level super easy cho mỗi CTDL. 
+Có thể sử dụng LC Study Plan cho phần này (https://leetcode.com/study-plan/data-structure/). 
+
+CTDL căn bản gồm:
+Mảng
+Hashtable / Hash Map / Hash Set
+Stack / queue
+Linked list
+Tree các thể loại
+Graph các thể loại
