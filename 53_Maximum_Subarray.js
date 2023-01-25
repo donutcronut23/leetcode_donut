@@ -48,6 +48,21 @@ var maxSubArray2 = function (nums) {
   return max;
 };
 
+// Solution #3 - optimized prefix sum
+// we define S(i) ，use to calculate sum from range [0, i]。
+
+// then S(j) - S(i - 1) is sum of range [i, j].
+
+// Here, we can get all S[i] , (i = 0,1,2....,n-1) with one loop array. at the same time, we get min sum from S[k], (k = 0，1，i-1), then
+
+// maxSum = max(maxSum, S[i] - minSum).
+
+// Here we maintain two variables minSum, maxSum.
+
+// Complexity Analysis
+// Time Complexity: O(n) - n array length
+// Space Complexity: O(1)
+
 var maxSubArray3 = function (nums) {
   const len = nums.length;
   let max = nums[0];
